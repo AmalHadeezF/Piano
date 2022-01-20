@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+/* Title section */
+
+header .title{
+    font-family: 'Niconne', cursive;
+    font-size: 5em;
+    text-align: center;
+    position: static;
+}
+header img{
+    width: 8em;
+    height: 10em;
+    margin-left: 46%;
+}
+footer{
+    font-family: 'Niconne', cursive;
+    text-align: center;
+}
+div {
+   margin-left: 40%;
+}
+/* buttons */
+
+.pio {
+    background-color: white;
+    width: 4%;
+    font-size: 1em;
+    height: 10em;
+    margin-right: 0.2em;
+  }
+
+.hvr {
+    background-color: #525752;
+    color: white;
+}
+@media (max-width: 500px) {
+    header .title{
+        font-size: 2em;
+    }
+    .pio {
+        background-color: white;
+        width: 10%;
+        font-size: 1em;
+        height: 10em;
+        margin-right: 0.2em;
+      }
+    div{
+       margin-left: 4%;
+       margin-right: 2%;
+    };
+}
